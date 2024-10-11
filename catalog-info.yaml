@@ -1,0 +1,23 @@
+#$schema: https://json.schemastore.org/catalog-info.json
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: djdevops-app-frontend
+  annotations:
+    github.com/project-slug: djajcevic/djdevops-app-frontend-acs
+    backstage.io/environment: dev
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/name=djdevops-app-frontend'
+  tags:
+    - react
+    - js
+  links:
+    - url: djdevops-app-frontend.apps.idp.dhl.com
+      title: Website
+      icon: star
+spec:
+  type: website
+  lifecycle: development
+  owner: demo-team
+  system: demo
+  dependsOn:
+    - component:default/djdevops-app
