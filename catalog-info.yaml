@@ -7,6 +7,7 @@ metadata:
     github.com/project-slug: djajcevic/djdevops-app-frontend-acs
     backstage.io/environment: dev
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/name=djdevops-app-frontend'
+    sonarqube.org/project-key: djdevops-app
   tags:
     - react
     - js
