@@ -11,7 +11,7 @@ metadata:
     - react
     - js
   links:
-    - url: djdevops-app-frontend.apps.idp.dhl.com
+    - url: https://djdevops-app-frontend.apps.idp.dhl.com
       title: Website
       icon: star
 spec:
